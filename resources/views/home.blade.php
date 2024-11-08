@@ -26,7 +26,7 @@
             <div class="px-5 py-2 bg-pink-700 text-xl text-center text-white rounded-lg shadow-md font-semibold">
                 <label for="tasks" >All Tasks</label>
             </div>
-
+            
             <div class="my-5 px-5 py-5 bg-rose-900 text-lg text-white rounded-lg shadow-md " >
                @php  $i=1; @endphp
                     @foreach ($tasks as $task)

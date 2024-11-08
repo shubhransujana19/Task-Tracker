@@ -36,7 +36,10 @@
         </div>
       </div>
       
-    <x-back class="bg-green-500 " id="center">
-        Go Back
-     </x-back>
+      <div class=" mt-10 flex justify-end ">
+        <x-back class="bg-violet-500">
+            Go Back
+        </x-back>
+    </div >
+
 </x-layout>

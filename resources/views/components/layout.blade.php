@@ -16,6 +16,8 @@
             <x-nav-link href="/"        :active=" request()->is('/') "       > Home  </x-nav-link>
             <x-nav-link href="/about"   :active=" request()->is('about') "   > About </x-nav-link>
             <x-nav-link href="/contact" :active=" request()->is('contact') " >Contact</x-nav-link>    
+            <x-nav-link href="/jobs"    :active=" request()->is('jobs') "    >  Jobs </x-nav-link>    
+
         </div>
         <div>
             <img src="https://laravel.com/img/logotype.min.svg" alt="Profile Picture" class="p-2 w-12 h-12 rounded-full border-2 " onclick="toggleDropdown()">
@@ -30,7 +32,7 @@
         
     </nav>
 
-    <div class="text-center text-white ">
+    <div class=" p-5 text-lg text-center text-white  ">
        {{ $heading }}
     </div>
 
