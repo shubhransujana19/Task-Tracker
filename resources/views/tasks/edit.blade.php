@@ -26,11 +26,16 @@
                 </label>
             
             </div>
-            <div class="mt-4 flex justify-center ">
-                <button type="submit" class="px-5 py-2 my-5 mx-3 bg-sky-900 rounded-lg shadow-md text-white font-bold ">Update Task </button>
-                <x-back>
-                    Cancle
-                </x-back>
+            <div class="mt-4 flex justify-center gap-4">
+                <div>
+                    <button type="submit" class="px-5 py-2 my-5 bg-sky-700 rounded-lg shadow-md text-white font-bold ">Update Task </button>
+                </div>
+              
+                <div class="mt-7 ">
+                    <x-back class="bg-sky-700 py-2" >
+                        Go Back
+                    </x-back>
+                </div >
             </div>    
         </form>
     
